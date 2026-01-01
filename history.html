@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>История - ARSIO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+</head>
+<body class="bg-gray-50 font-sans">
+    <custom-navbar></custom-navbar>
+    
+    <header class="relative h-96 overflow-hidden">
+        <div class="absolute inset-0 bg-black/50 z-10 flex items-center justify-center">
+            <div class="text-center px-4">
+                <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">Наша история</h1>
+                <p class="text-lg md:text-xl text-gray-200">Как ARSIO стал обладателем звезды Мишлен</p>
+            </div>
+        </div>
+        <img src="https://www.rma.ru/uploads/news_pic/97a7b8aa01.jpg" alt="Шеф-повар ARSIO" class="absolute inset-0 w-full h-full object-cover">
+    </header>
+
+    <section class="py-20 px-4 max-w-6xl mx-auto">
+        <div class="mb-16 text-center">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4">Философия ARSIO</h2>
+            <div class="w-24 h-1 bg-amber-600 mx-auto mb-6"></div>
+            <p class="text-gray-600 max-w-3xl mx-auto">Мы верим, что кулинария - это искусство, а каждый приём пищи - особое событие</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12 items-center mb-20">
+            <div class="order-1 md:order-2">
+                <h3 class="text-2xl font-bold mb-4 text-gray-800">Начало пути</h3>
+                <p class="text-gray-600 mb-4">ARSIO открыл свои двери в 2010 году в самом сердце Москвы. С самого начала основатель и шеф-повар Арсений Иванов поставил перед собой цель создать место, где кулинария возведена в ранг высокого искусства.</p>
+                <p class="text-gray-600">Первые годы были временем экспериментов и поиска собственного стиля. Наша команда объездила всю Европу, обучаясь у лучших мастеров и собирая кулинарные традиции разных стран.</p>
+            </div>
+            <div class="order-2 md:order-1 rounded-xl overflow-hidden shadow-xl">
+                <img src="https://avatars.mds.yandex.net/i?id=85fc532814a3732a7c42b30b2217b0d1_l-9214095-images-thumbs&n=13" alt="Открытие ресторана" class="w-full h-auto">
+            </div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12 items-center mb-20">
+            <div>
+                <h3 class="text-2xl font-bold mb-4 text-gray-800">Признание</h3>
+                <p class="text-gray-600 mb-4">В 2015 году ARSIO впервые попал в поле зрения гида Мишлен. Критики отметили наш инновационный подход к классическим блюдам и безупречное сочетание вкусов.</p>
+                <p class="text-gray-600">Но настоящий триумф наступил в 2018 году, когда наш ресторан был удостоен звезды Мишлен. Эта награда стала подтверждением нашего стремления к совершенству.</p>
+            </div>
+            <div class="rounded-xl overflow-hidden shadow-xl">
+                <img src="https://avatars.mds.yandex.net/i?id=85fc532814a3732a7c42b30b2217b0d1_l-9214095-images-thumbs&n=13" alt="Звезда Мишлен" class="w-full h-auto">
+            </div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div class="order-1 md:order-2">
+                <h3 class="text-2xl font-bold mb-4 text-gray-800">Сегодня</h3>
+                <p class="text-gray-600 mb-4">Сегодня ARSIO - это не просто ресторан, а целая философия. Мы продолжаем удивлять наших гостей авторскими блюдами, созданными из лучших сезонных продуктов.</p>
+                <p class="text-gray-600">Наша команда состоит из 25 профессионалов, каждый из которых вносит свой вклад в создание незабываемых гастрономических впечатлений.</p>
+            </div>
+            <div class="order-2 md:order-1 rounded-xl overflow-hidden shadow-xl">
+                <img src="https://avatars.mds.yandex.net/i?id=85fc532814a3732a7c42b30b2217b0d1_l-9214095-images-thumbs&n=13" alt="Команда ARSIO" class="w-full h-auto">
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-amber-50">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6">Узнайте больше о нашей кухне</h2>
+            <p class="text-gray-600 mb-8">Посмотрите наше полное меню или забронируйте стол, чтобы лично оценить мастерство шеф-повара</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="menu.html" class="bg-amber-600 hover:bg-amber-700 text-white font-medium py-3 px-8 rounded-full transition duration-300 inline-block">Меню</a>
+                <a href="index.html#reservation" class="bg-white hover:bg-gray-100 text-gray-800 font-medium py-3 px-8 rounded-full transition duration-300 inline-flex items-center">
+                    <i data-feather="calendar" class="mr-2 w-5 h-5"></i>
+                    Бронирование
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <custom-footer></custom-footer>
+    
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>

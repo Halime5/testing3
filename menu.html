@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Меню - ARSIO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+</head>
+<body class="bg-gray-50 font-sans">
+    <custom-navbar></custom-navbar>
+    
+    <header class="relative h-96 overflow-hidden">
+        <div class="absolute inset-0 bg-black/50 z-10 flex items-center justify-center">
+            <div class="text-center px-4">
+                <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">Меню ARSIO</h1>
+                <p class="text-lg md:text-xl text-gray-200">iyghgvkjhbn </p>
+            </div>
+        </div>
+        <img src="http://static.photos/food/1200x630/13" alt="Блюда ARSIO" class="absolute inset-0 w-full h-full object-cover">
+    </header>
+
+    <section class="py-20 px-4 max-w-6xl mx-auto">
+        <div class="mb-16 text-center">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4">Сезонное меню</h2>
+            <div class="w-40 h-1 bg-amber-600 mx-auto mb-6"></div>
+            <p class="text-gray-600 max-w-3xl mx-auto">Мы используем только свежие сезонные продукты, поэтому меню регулярно обновляется</p>
+        </div>
+            <h2 class="text-3xl font-bold text-gray-800 mb-4 text-center" style="margin-bottom: 60px">A-la-CARTE <div class="w-24 h-1 bg-amber-600 mx-auto mb-6" style="margin-top: 20px"></div></h2>
+
+        <div class="grid md:grid-cols-2 gap-12">
+            <!-- Закуски -->
+            <div>
+                <h3 class="text-2xl font-bold mb-6 text-gray-800 pb-2 border-b border-gray-200">Starters</h3>
+                <ul class="space-y-8">
+                    <li>
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-800">Bread basket</h4>
+                                <p class="text-gray-600 mt-1">Different types of bread</p>
+                            </div>
+                            <span class="font-medium text-gray-800">$</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-800">Mediterranean lobster</h4>
+                                <p class="text-gray-600 mt-1">lobster with pumpkin puree and bisque</p>
+                            </div>
+                            <span class="font-medium text-gray-800">$</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-800">Oysters with citrus essence</h4>
+                                <p class="text-gray-600 mt-1">Served with lemon sorbet and ground pepper</p>
+                            </div>
+                            <span class="font-medium text-gray-800">$</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-800">Assorted cheese with truffle</h4>
+                                <p class="text-gray-600 mt-1">Assorted five types of cheese</p>
+                            </div>
+                            <span class="font-medium text-gray-800">$</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Основные блюда -->
+            <div>
+                <h3 class="text-2xl font-bold mb-6 text-gray-800 pb-2 border-b border-gray-200">Main</h3>
+                <ul class="space-y-8">
+                    <li>
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-800">Winter soup</h4>
+                                <p class="text-gray-600 mt-1">Broccoli soup with scallops and chestnuts</p>
+                            </div>
+                            <span class="font-medium text-gray-800">$</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-800">Marbled Beef</h4>
+                                <p class="text-gray-600 mt-1">Served with asparagus and baked vegetables</p>
+                            </div>
+                            <span class="font-medium text-gray-800">$</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-800">Risotto</h4>
+                                <p class="text-gray-600 mt-1">Risotto with salmon</p>
+                            </div>
+                            <span class="font-medium text-gray-800">$</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-800">Vegetarian ratatouille</h4>
+                                <p class="text-gray-600 mt-1">Tomato, potato, zucchini, eggplant with vegetabels sauce</p>
+                            </div>
+                            <span class="font-medium text-gray-800">$</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Десерты -->
+            <div class="mt-12">
+                <h3 class="text-2xl font-bold mb-6 text-gray-800 pb-2 border-b border-gray-200">Desert</h3>
+                <ul class="space-y-8">
+                    <li>
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-800">hgfg</h4>
+                                <p class="text-gray-600 mt-1">ghfjhhfgdsfdghj</p>
+                            </div>
+                            <span class="font-medium text-gray-800">$</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-800">gf</h4>
+                                <p class="text-gray-600 mt-1">gfdhfgfgfhgjhg</p>
+                            </div>
+                            <span class="font-medium text-gray-800">$</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-800">ghdjg</h4>
+                                <p class="text-gray-600 mt-1">wqertyuil</p>
+                            </div>
+                            <span class="font-medium text-gray-800">$</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Вина -->
+            <div class="mt-12">
+                <h3 class="text-2xl font-bold mb-6 text-gray-800 pb-2 border-b border-gray-200">Винная карта</h3>
+                <ul class="space-y-8">
+                    <li>
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-800">Château Margaux 2015</h4>
+                                <p class="text-gray-600 mt-1">Бордо, Франция (бокал)</p>
+                            </div>
+                            <span class="font-medium text-gray-800">8 500 ₽</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-800">Sassicaia 2016</h4>
+                                <p class="text-gray-600 mt-1">Тоскана, Италия (бокал)</p>
+                            </div>
+                            <span class="font-medium text-gray-800">7 200 ₽</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-800">Dom Pérignon 2010</h4>
+                                <p class="text-gray-600 mt-1">Шампань, Франция (бокал)</p>
+                            </div>
+                            <span class="font-medium text-gray-800">12 000 ₽</span>
+                        </div>
+                    </li>
+                    <div class="text-center mt-12">
+                <a href="menu.html" class="inline-flex items-center text-amber-600 hover:text-amber-700 font-medium">
+                    Полная винная карта
+                    <i data-feather="arrow-right" class="ml-2 w-5 h-5"></i>
+                </a>
+            </div>
+                </ul>
+            </div>
+                       </div>
+                        <div class="mt-12" style="margin-left: 20%;margin-right: 20%"><h2 class="text-3xl font-bold text-gray-800 mb-4 text-center" style="margin-bottom: 60px; margin-left: 20%;margin-right: 20%">SETS <div class="w-24 h-1 bg-amber-600 mx-auto mb-6" style="margin-top: 20px"></div></h2>
+                <h3 class="text-2xl font-bold mb-6 text-gray-800 pb-2 border-b border-gray-200">SET</h3>
+                <ul class="space-y-8">
+                    <li>
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-800">Château Margaux 2015</h4>
+                                <p class="text-gray-600 mt-1">Бордо, Франция (бокал)</p>
+                            </div>
+                            <span class="font-medium text-gray-800">8 500 ₽</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-800">Sassicaia 2016</h4>
+                                <p class="text-gray-600 mt-1">Тоскана, Италия (бокал)</p>
+                            </div>
+                            <span class="font-medium text-gray-800">7 200 ₽</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-800">Dom Pérignon 2010</h4>
+                                <p class="text-gray-600 mt-1">Шампань, Франция (бокал)</p>
+                            </div>
+                            <span class="font-medium text-gray-800">12 000 ₽</span>
+                        </div>
+                    </li>
+                     <li>
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-800">Dom Pérignon 2010</h4>
+                                <p class="text-gray-600 mt-1">Шампань, Франция (бокал)</p>
+                            </div>
+                            <span class="font-medium text-gray-800">12 000 ₽</span>
+                        </div>
+                    </li>
+                     <li>
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-800">Dom Pérignon 2010</h4>
+                                <p class="text-gray-600 mt-1">Шампань, Франция (бокал)</p>
+                            </div>
+                            
+                        </div>
+                        <div class="font-medium text-gray-800" style="margin-top: 100px;">12 000 ₽</div>
+                    </li>
+                </ul>
+            </div>
+        
+
+        <div class="mt-20 text-center">
+            <a href="index.html#reservation" class="inline-flex items-center bg-amber-600 hover:bg-amber-700 text-white font-medium py-3 px-8 rounded-full transition duration-300">
+                <i data-feather="calendar" class="mr-2 w-5 h-5"></i>
+                Забронировать стол
+            </a>
+        </div>
+    </section>
+
+    <custom-footer></custom-footer>
+    
+    <script src="components/ar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>

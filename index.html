@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARSIO - Ресторан авторской кухни</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+</head>
+<body class="bg-gray-50 font-sans">
+    <custom-navbar></custom-navbar>
+    
+    <header class="relative h-screen overflow-hidden">
+        <div class="absolute inset-0 bg-black/50 z-10 flex items-center justify-center">
+            <div class="text-center px-4">
+                <h1 class="text-5xl md:text-7xl font-bold text-white mb-6 animate-fade-in">ARSIO</h1>
+                <p class="text-xl md:text-2xl text-gray-200 mb-8 max-w-2xl mx-auto">Авторская кухня, отмеченная звёздами Мишлен</p>
+                <a href="#reservation" class="bg-amber-600 hover:bg-amber-700 text-white font-medium py-3 px-8 rounded-full transition duration-300 inline-block">Забронировать стол</a>
+            </div>
+        </div>
+        <video autoplay muted loop class="absolute inset-0 w-full h-full object-cover">
+            <source src="http://static.photos/food/1200x630/12" type="video/mp4">
+        </video>
+    </header>
+
+    <section class="py-20 px-4 max-w-6xl mx-auto" id="about">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h2 class="text-3xl font-bold mb-6 text-gray-800">Наша история</h2>
+                <p class="text-gray-600 mb-4">ARSIO - это больше чем ресторан. Это история о страсти к кулинарии, о поиске совершенства в каждом блюде.</p>
+                <p class="text-gray-600 mb-6">Основанный в 2010 году шеф-поваром Мухамедом Тимофеевичем, ресторан быстро завоевал признание гурманов и в 2018 году был удостоен звезды Мишлен.</p>
+                <a href="history.html" class="text-amber-600 hover:text-amber-700 font-medium flex items-center">
+                    Узнать больше
+                    <i data-feather="arrow-right" class="ml-2 w-5 h-5"></i>
+                </a>
+            </div>
+            <div class="rounded-xl overflow-hidden shadow-xl">
+                <img src="http://static.photos/restaurant/1024x576/5" alt="Интерьер ресторана ARSIO" class="w-full h-auto">
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-gray-100" id="menu">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Меню</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto"></p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                    <img src="http://static.photos/food/640x360/1" alt="Закуски" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-4 text-gray-800">Starters</h3>
+                        <ul class="space-y-4">
+                            <li class="flex justify-between">
+                                <span>Mediterranean lobster</span>
+                                <span class="font-medium">$$</span>
+                            </li>
+                            <li class="flex justify-between">
+                                <span>Oysters with citrus essence</span>
+                                <span class="font-medium">$</span>
+                            </li>
+                            <li class="flex justify-between">
+                                <span>Assorted cheese with truffle</span>
+                                <span class="font-medium">3 500 ₽</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                    <img src="http://static.photos/food/640x360/2" alt="Основные блюда" class="w-full h-48 object-cover">
+                    
+                    
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-4 text-gray-800">Main</h3>
+                        <ul class="space-y-4">
+                            <li class="flex justify-between">
+                                <span>Winter soup</span>
+                                <span class="font-medium">$$</span>
+                            </li>
+                            <li class="flex justify-between">
+                                <span>Marbled Beef</span>
+                                <span class="font-medium">$</span>
+                            </li>
+                            <li class="flex justify-between">
+                                <span>Risotto</span>
+                                <span class="font-medium">$$</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                
+                <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                    <img src="https://i.pinimg.com/736x/3f/4a/49/3f4a49568e17e8351eba777171056f1a.jpg" alt="Десерты" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-4 text-gray-800">Deserts</h3>
+                        <ul class="space-y-4">
+                            <li class="flex justify-between">
+                                <span>hgf</span>
+                                <span class="font-medium">$</span>
+                            </li>
+                            <li class="flex justify-between">
+                                <span>gfdhf</span>
+                                <span class="font-medium">$</span>
+                            </li>
+                            <li class="flex justify-between">
+                                <span>fdghfh</span>
+                                <span class="font-medium">$</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="menu.html" class="inline-flex items-center text-amber-600 hover:text-amber-700 font-medium">
+                    Полное меню
+                    <i data-feather="arrow-right" class="ml-2 w-5 h-5"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 px-4 max-w-6xl mx-auto" id="reservation">
+        <div class="bg-white rounded-xl shadow-xl overflow-hidden">
+            <div class="grid md:grid-cols-2">
+                <div class="p-9">
+                    <h2 class="text-3xl font-bold mb-6 text-gray-800">Забронировать стол</h2>
+                    <form class="space-y-6">
+                        <div>
+                            <label for="name" class="block text-gray-700 mb-2">Имя</label>
+                            <input required="required type="text id="name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-transparent">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-gray-700 mb-2">Email</label>
+                            <input required="required type="email id="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-transparent">
+                        </div>
+                        <div>
+                            <label for="date" class="block text-gray-700 mb-2">Дата</label>
+                            <input type="date" id="date" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-transparent">
+                        </div>
+                        <div>
+                            <label for="guests" class="block text-gray-700 mb-2">Количество гостей</label>
+                            <select id="guests" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-transparent">
+                                <option disabled></option>
+                                <option>1 человек</option>
+                                <option>2 человека</option>
+                                <option>3-4 человека</option>
+                                <option>5-6 человек</option>
+                                <option>Больше 6 человек</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="w-full bg-amber-600 hover:bg-amber-700 text-white font-medium py-3 px-6 rounded-lg transition duration-300">Забронировать</button>
+                    </form>
+                </div>
+                <div class="hidden md:block bg-gray-100 flex items-center justify-center">
+                    <img src="https://avatars.mds.yandex.net/i?id=85fc532814a3732a7c42b30b2217b0d1_l-9214095-images-thumbs&n=13" alt="Интерьер ARSIO" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <custom-footer></custom-footer>
+    
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+    </script>
+
+</body>
+</html>
